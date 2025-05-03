@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alon's protfolio - outside_the_box</title>
+    <link rel="stylesheet" href="outside_the_box.css">
+    <link rel="icon" href="../../images/logo.png">
+</head>
+
+<body>
+
+    <div class="stiky_nav">
+        <a href="../../index.html">
+            <img class="protfolio_logo" src="../../images/main_protfolio_logo.png" alt="website logo" width="80px"
+                height="80px">
+        </a>
+        <p>Alon Fridman</p>
+
+        <nav>
+            <ul>
+                <li><a href="../../index.html">לדף הראשי</a></li>
+                <li><a href="#home">על הפרוייקט</a></li>
+                <li><a href="#outside_the_box">הפרוייקט</a></li>
+                <li><a href="#contact">צור קשר</a></li>
+                <li id="all_projects">פרויקטים נוספים</a>
+                    <ul>
+                        <a href="../coffe_coupon/coffe_coupon_page.html">
+                            <li>קופון לקפה</li>
+                        </a>
+                        <a href="../free_consultation/free_consultation.html">
+                            <li>ייעוץ רכב</li>
+                        </a>
+                        <a href="../get_present/get_present.html">
+                            <li>קבלת מתנה</li>
+                        </a>
+                        <a href="../meat_and_eat/meat_and_eat.html">
+                            <li>meat & eat</li>
+                        </a>
+                        <a href="../Electrician/Electrician.html">
+                            <li>Electrician</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <span class="MainHeader" id="home">
+        <header>קצת על הפרוייקט</header>
+        <p>
+            דף נחיתה שנועד לקדם שירותי ייעוץ, ליווי וסדנאות בתחום החשיבה היצירתית. מבנה הדף כולל שילוב בין תמונת קופסה
+            לבין טקסט
+            מניע לפעולה באורך מלא, אשר מדגיש ערכים של חדשנות, פתרון בעיות ופריצת גבולות. העמוד מציג ארבעה שלבים ברורים
+            לחשיבה
+            יצירתית, בצורה של כרטיסי מידע מופרדים (cards). הטופס כולל שדות לשם, אימייל והודעה, וממוקם ליד מפה מוטמעת –
+            שניהם ניתנים
+            להתאמה עיצובית בגמישות מלאה (עם סדר משתנה במובייל). נעשה שימוש ב־CSS Flexbox, אנימציות (slide_up,
+            slide_icon_up)
+            ואייקונים רספונסיביים לחוויית משתמש גבוהה. השפה הגרפית אחידה, תוך שימוש בצבעי רקע בגווני אפור־בהיר עם נגיעות
+            אקוומרין
+            מודרני. הפרויקט ממחיש שליטה בעיצוב אינטראקטיבי, מחשבה מערכתית ויכולת להעביר מסר שיווקי ברור.
+        </p>
+        <br>
+        <a href="Landing/outside_the_box.html" target="_blank" rel="noopener noreferrer">
+            <button>
+                מעבר לדף הפקויירט
+            </button></a>
+        <a href="outside_the_box.zip" download="coffe_project">
+            <button>
+                להורדת קבצי הפרוייקט
+            </button></a>
+    </span>
+
+    </div>
+
+    <br><br><br>
+
+    <div id="outside_the_box">
+        <a href="Landing/outside_the_box.html" target="_blank" rel="noopener noreferrer">
+            <img src="Landing/images/bgc.png" alt="outside the box image">
+        </a>
+    </div>
+
+    <br><br><br>
+
+    <div class="contact-us" id="contact">
+        <h1>צור קשר</h1>
+        <p>
+            לכל סיבה לצורך יצירת קשר יש להשאיר פרטים מטה ואחזור אליכם בהקדם !
+        </p>
+
+        <br>
+
+        <form action="">
+
+            <label for="first_name">שם מלא</label>
+            <br>
+            <input type="text" id="first_name" required placeholder="שם מלא"
+                oninvalid="this.setCustomValidity('נא לכתוב שם מלא')">
+            <br>
+            <label for="email">דוא''ל</label>
+            <br>
+            <input type="email" id="email" required placeholder="abc@gmail.com"
+                oninvalid="this.setCustomValidity('נא לכתוב דואר אלקטרוני')">
+            <br>
+            <label for="phone_number">טלפון</label>
+            <br>
+            <input type="tel" id="phone_number" required placeholder="456-7890-(123)" maxlength="12"
+                oninvalid="this.setCustomValidity('נא לכתוב מספר טלפון')">
+            <br>
+            <label for="main_message">תוכן ההודעה</label>
+            <br>
+            <textarea id="main_message" required placeholder="תוכן ההודעה"
+                oninvalid="this.setCustomValidity('נא למלא תוכן הודעה')"></textarea>
+            <br><br>
+            <button type="submit">שלח</button>
+        </form>
+    </div>
+
+    <footer class="custom-footer">
+        <div class="footer-links">
+            <a class="footer-item" href="https://www.instagram.com/alon_z?igsh=OWkxYnVsdXUxNDVt&utm_source=qr"
+                target="_blank" rel="noopener noreferrer">
+                <img src="../../images/instegram.png" alt="Instagram logo">
+                <p>Instagram</p>
+            </a>
+            <a class="footer-item"
+                href="https://www.linkedin.com/in/alon-fridman-16a917352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                target="_blank" rel="noopener noreferrer">
+                <img src="../../images/linkrdin.webp" alt="Linkedin logo">
+                <p>Linkedin</p>
+            </a>
+            <a class="footer-item" href="mailto:yourmail@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img src="../../images/gmail.jpg" alt="Gmail logo">
+                <p>Gmail</p>
+            </a>
+        </div>
+        <div class="footer_code">
+            <p>באתר זה נעשה שימוש בשפות הבאות:</p>
+            <img src="../../images/html_logo.png" alt="HTML logo">
+            <img src="../../images/css_logo.png" alt="CSS logo">
+        </div>
+        <div class="footer-bottom">
+            <p>כל הזכויות שמורות ל:</p>
+            <p>Alon Fridman</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
